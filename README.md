@@ -105,4 +105,6 @@ Data Democratizer enables users to:
 - [shadcn/ui](https://ui.shadcn.com/)
 - [Lucide Icons](https://lucide.dev/)
 
+## Deploy on Vercel 
+https://data-democratizer.vercel.app/
 
