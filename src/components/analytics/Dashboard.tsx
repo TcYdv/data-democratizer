@@ -35,7 +35,7 @@ const Dashboard: React.FC = () => {
       </main>
       
       <footer className="mt-12 text-center text-gray-500 text-sm">
-        <p>Data Democratizer © 2023 - Making data insights accessible for everyone</p>
+        <p>Data Democratizer © 2025 - Making data insights accessible for everyone</p>
       </footer>
     </div>
   );
