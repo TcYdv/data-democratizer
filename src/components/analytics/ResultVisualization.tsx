@@ -154,7 +154,7 @@ const ResultVisualization: React.FC = () => {
       {renderChart()}
       
       <div className="mt-4 pt-4 border-t border-gray-100 text-sm text-gray-500">
-        <p>Generated based on query: "{results.find(r => r.id === activeResult)?.queryId ? results.find(q => q.id === results.find(r => r.id === activeResult)?.queryId)?.text : 'Unknown query'}"</p>
+        <p>Generated based on query: "{currentResult.summary}"</p>
       </div>
     </div>
   );
