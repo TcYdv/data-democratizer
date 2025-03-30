@@ -1,69 +1,121 @@
-# Welcome to your Lovable project
 
-## Project info
+# Data Democratizer
 
-**URL**: https://lovable.dev/projects/d419adbe-5b0f-401f-8d59-112f6a8a30a7
+![Data Democratizer](https://github.com/user/data-democratizer/raw/main/public/data-demo-screenshot.png)
 
-## How can I edit this code?
+## 🚀 Overview
 
-There are several ways of editing your application.
+Data Democratizer is an interactive analytics dashboard that allows non-technical users to query and visualize data using natural language. Simply type your questions in plain English, and the application will generate insightful visualizations to help you understand your data.
 
-**Use Lovable**
+## ✨ Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d419adbe-5b0f-401f-8d59-112f6a8a30a7) and start prompting.
+- **Natural Language Queries**: Ask questions about your data in plain English
+- **Interactive Visualizations**: Automatically generated charts based on your queries
+- **Query History**: Track and revisit your previous questions and results
+- **Multiple Chart Types**: Bar charts, line charts, pie charts, and area charts
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Tech Stack
 
-**Use your preferred IDE**
+- **Frontend**: React, TypeScript, Vite
+- **UI Framework**: Tailwind CSS, shadcn/ui
+- **State Management**: Redux Toolkit
+- **Data Visualization**: Recharts
+- **Icons**: Lucide React
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📊 Demo
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Data Democratizer enables users to:
+- Ask questions like "How did our sales perform last quarter?"
+- Get instant visual insights without SQL knowledge
+- Compare data across different dimensions
+- Save and revisit previous analyses
 
-Follow these steps:
+## 🚦 Getting Started
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Prerequisites
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- Node.js (v14 or higher)
+- npm or yarn
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Installation
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+1. Clone the repository
+   ```bash
+   git clone https://github.com/your-username/data-democratizer.git
+   ```
+
+2. Navigate to the project directory
+   ```bash
+   cd data-democratizer
+   ```
+
+3. Install dependencies
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+4. Start the development server
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+5. Open your browser and visit http://localhost:8080
+
+## 🧩 Project Structure
+
+```
+data-democratizer/
+├── public/               # Static assets
+├── src/
+│   ├── components/       # React components
+│   │   ├── analytics/    # Analytics-specific components
+│   │   └── ui/           # Reusable UI components
+│   ├── hooks/            # Custom React hooks
+│   ├── store/            # Redux store configuration
+│   ├── types/            # TypeScript type definitions
+│   └── utils/            # Utility functions
+├── .gitignore
+├── index.html
+├── package.json
+├── tsconfig.json
+└── vite.config.ts
 ```
 
-**Edit a file directly in GitHub**
+## 💡 Usage Example
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+1. Enter a question in the input field, such as "What were our top performing products in 2023?"
+2. The application processes your query and generates an appropriate visualization
+3. Review the results and insights
+4. The query is saved to your history for future reference
 
-**Use GitHub Codespaces**
+## 🤝 Contributing
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-## What technologies are used for this project?
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-This project is built with .
+## 📝 License
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Distributed under the MIT License. See `LICENSE` for more information.
 
-## How can I deploy this project?
+## 📬 Contact
 
-Simply open [Lovable](https://lovable.dev/projects/d419adbe-5b0f-401f-8d59-112f6a8a30a7) and click on Share -> Publish.
+Project Link: [https://github.com/your-username/data-democratizer](https://github.com/your-username/data-democratizer)
 
-## I want to use a custom domain - is that possible?
+## 🙏 Acknowledgements
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [Recharts](https://recharts.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [Lucide Icons](https://lucide.dev/)
