@@ -21,15 +21,15 @@ const Dashboard: React.FC = () => {
       <main>
         <QueryInput />
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {/* Left sidebar */}
-          <div className="md:col-span-1">
-            <QueryHistory />
+        <div className="grid grid-cols-1 gap-6 mt-6">
+          {/* Results visualization */}
+          <div>
+            <ResultVisualization />
           </div>
           
-          {/* Main content */}
-          <div className="md:col-span-2">
-            <ResultVisualization />
+          {/* Query history */}
+          <div>
+            <QueryHistory />
           </div>
         </div>
       </main>
